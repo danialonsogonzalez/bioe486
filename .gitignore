@@ -1,0 +1,25 @@
+# Compiled Python Files
+*.pyc
+__pycache__/
+
+# Environment Files
+.env
+venv/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore build/output directories
+build/
+dist/
+*.egg-info/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore contents in data (Avoid overloading repo)
+data/*
+data/**/*
+
